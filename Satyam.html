@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Pathak</title>
+    <link rel="stylesheet" href="Satyam.css">
+    <script src="https://kit.fontawesome.com/7eda6027c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">PATHAK</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Satyam</span><br> Pathak From Jaunpur</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------About---------------->
+    <div id="about">
+        <div class="conatainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Satyam.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Recent graduate with a degree in Computer Science and a passion for web development. Eager to contribute to a dynamic team environment and apply skills in HTML, CSS, and JavaScript to build innovative web solutions. Seeking an entry-level position where I can continue to learn and grow.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internships')">Internships</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS, JAVASCRIPT, EXPRESS.JS, NODE.JS, REACT.JS, MONGODB.</li>
+                            <li><span>Cloud Computing</span><br>AWS, MICROSOFT AZURE.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internships">
+                        <ul>
+                            <li><span>Web Development</span><br>Treue Technologies</li>
+                            <li><span>Frontend Development</span><br>CodSoft</li>
+                            <li><span>Full Stack Development</span><br>Bharat Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Class X (2016)</span><br>S. B. I. C. Ghanshyampur, Jaunpur, Uttar Pradesh.</li>
+                            <li><span>Class XII (2018)</span><br>S. B. I. C. Ghanshyampur, Jaunpur, Uttar Pradesh.</li>
+                            <li><span>B.Tech ( C. S. E ) ( 2020 - 2024 )</span><br>Dr.APJ Abdul Kalam Technical University.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------Services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Design</h2>
+                    <p>A well-designed website is a powerful marketing and communication tool that helps build trust and generate leads.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-store"></i>
+                    <h2>Ecommerce</h2>
+                    <p>With eCommerce solutions, businesses can operate 24 hours a day, 7 days a week, and reach customers in any time zone.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Web Applications</h2>
+                    <p>Web applications can reach a global audience. They're interactive and engaging, so can easily hold users' attention.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------Portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>AI Voice Assistant</h3>
+                        <p>I have created a ai assistant using HTML, CSS and JAVASCRIPT.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Hospital Website</h3>
+                        <p>I have created hospital website using react js and node js.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Gym Website</h3>
+                        <p>I have created gym website using react js, nodejs and express js.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!------------------------------------Contact------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> satyampathak7522@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>+91 88878843167</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/satyampathak2001/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/satyam-pathak-437287260/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/satyampathak88"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Satyam Pathak.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/satyampathak7522@gmail.com" method="POST" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy Created By Satyam Pathak</p>
+        </div>
+    </div>
+    <script src="Satyam.js"></script>
+</body>
+
+</html>
